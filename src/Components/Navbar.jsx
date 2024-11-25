@@ -1,6 +1,6 @@
 import Logo from '../../public/NEWZ_Logo.png';
 
-export const Navbar = ({setCategory}) => {
+export const Navbar = ({ setCategory }) => {
     return (
         <nav className="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
             <div className="container-fluid">
@@ -11,19 +11,19 @@ export const Navbar = ({setCategory}) => {
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
                         <li className="nav-item">
-                            <div className="nav-link" onClick={() => setCategory("Technology")}>Technology</div>
+                            <button className="nav-link btn" onClick={() => setCategory("Technology")}>Technology</button>
                         </li>
                         <li className="nav-item">
-                            <div className="nav-link" onClick={() => setCategory("Politics")}>Politics</div>
+                            <button className="nav-link btn" onClick={() => setCategory("Politics")}>Politics</button>
                         </li>
                         <li className="nav-item">
-                            <div className="nav-link" onClick={() => setCategory("Economy")}>Economy</div>
+                            <button className="nav-link btn" onClick={() => setCategory("Economy")}>Economy</button>
                         </li>
                         <li className="nav-item">
-                            <div className="nav-link" onClick={() => setCategory("Health")}>Health</div>
+                            <button className="nav-link btn" onClick={() => setCategory("Health")}>Health</button>
                         </li>
                         <li className="nav-item">
-                            <div className="nav-link" onClick={() => setCategory("Business")}>Business</div>
+                            <button className="nav-link btn" onClick={() => setCategory("Business")}>Business</button>
                         </li>
                     </div>
                 </div>
