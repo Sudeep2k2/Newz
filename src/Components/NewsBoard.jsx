@@ -41,7 +41,7 @@ export const NewsBoard = ({ category }) => {
             setError(null);
 
             // Hardcoded API key (for testing - not recommended for production)
-            const apiKey = '5e8a1514563247b8a34d44353e5eaa04'; 
+            const apiKey = '6f7b862cbbae40dd9a865d32a9bd4059'; 
             const apiUrl = `https://newsapi.org/v2/top-headlines?country=us&category=${category.toLowerCase()}&apiKey=${apiKey}`;
 
             try {
