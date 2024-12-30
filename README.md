@@ -6,22 +6,22 @@ Collections of latest news by different categories using NEWS_API
 
 1. Clone this repository:
 
-   bash
+   ```bash
    git clone https://github.com/Sudeep2k2/Newz.git
-   
+   ```
 
 2. Install any required dependencies (if applicable):
 
-   bash
+   ```bash
    npm install
-   
+   ```
 
 3. Run the app:
 
 
-   bash
+   ```bash
    npm run dev
-   
+   ```
 
 RESULT
 
